@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6d11cd35f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/raj-high-resolution-logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Service</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <div class="animated-text">
+                <h1>Hi, I'm Raj <span></span></h1>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/img4.2.png" alt="myimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>Hi! I’m Raj, a web developer passionate about building responsive, user-friendly websites and applications. I specialize in frontend development and work with technologies like Html, Css, JavaScript, React.
+                    I enjoy turning ideas into functional, visually appealing digital experiences and constantly learning new skills to stay ahead in the ever-evolving tech world.Let’s work together to create something great!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web App Development(HTML, CSS, JavaScript, React, Java)</li>
+                            <li><span>Graphic Designing</span><br>Designing Web/App Interfaces(Figma)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Oct 2024 - Current</span><br>Java Developer at ACCIO JOB</li>
+                            <li><span>Aug 2023 - Oct 2023</span><br>Frontend Web Developer at Aiisma LLC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>BCA from Parul Institute of Computer Application</li>
+                            <li><span>2022</span><br>Higher Secondary School from C.S.H.P Memorial Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title" >My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p><b font-weight="500">Bring Your Vision to Life with Expert Web Development</b>
+                        In today’s digital age, your website is often the first impression your audience has of your brand. I offer professional web development services to craft dynamic, responsive, and user-friendly websites tailored to your unique needs. Whether you're launching a new site, revamping an existing one, or adding custom functionality, I provide end-to-end solutions that align with your business goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Designing</h2>
+                    <p><b font-weight="500">Crafting Unique, User-Friendly Web Experiences</b>
+                        As a passionate and creative web designer, I specialize in creating visually stunning, functional, and user-centric websites. With a focus on modern design principles and seamless user experience (UX), I bring ideas to life and help brands stand out in the digital landscape.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>Graphic Designing</h2>
+                    <p><b font-weight="500">Crafting Unique Visual Identities for Your Brand</b>
+                        With a keen eye for detail and a passion for creativity, I offer top-tier graphic design services that help bring your brand's vision to life. Whether you're a startup looking to establish a visual identity or an established business in need of a design refresh, I provide customized, high-quality design solutions that make an impact.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Tic-Toc-Toe.png" alt="">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>"Tic-Tac-Toe Game: A classic game of strategy and skill, built using HTML, CSS, JavaScript. Click to Play as X or O and try to outmaneuver your oppenent."</p>
+                        <a href=" https://raj3621.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/img5.1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, molestiae?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/img5.1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, molestiae?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work seemore">
+                    <img src="Images/img5.1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, molestiae?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn show" >See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>rajk200136@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7490905993</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/raj-142427258/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/raj3621"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://course.acciojob.com/profile"><i class="fa-solid fa-a"></i></a>
+                    </div>
+                    <a href="MyUpdatedResume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="submit" class="btn btn2" value="Send">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Raj. All rights <i class="fa-solid fa-heart"></i> are reserved.</p>
+
+        </div>
+    </div>
+
+    <!-- Hover underline -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    
+    <!-- Burger Menu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0"
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px"
+        }
+        var btnText = document.querySelector('.show');
+        btnText.addEventListener("click", function(){
+            if(btnText.textContent==="See more"){
+                btnText.textContent="See less";
+            }
+            else{
+                btnText.textContent="See more";
+            }
+        })
+        let showbtns = document.getElementsByClassName('show'); // Get all buttons with class 'show'
+    
+    for (var i = 0; i < showbtns.length; i++) {
+    showbtns[i].addEventListener('click', function() {
+        var targets = document.getElementsByClassName('seemore'); // Get all elements with 'seemore' class
+        for (var j = 0; j < targets.length; j++) {
+            targets[j].style.display = targets[j].style.display === 'block' ? 'none' : 'block';
+        }
+    });
+    }
+    
+    </script>
+    
+    <!-- Google Sheets Form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxk3LNk1BFFjOvbYsLNOGFpatPTvLc8oHals-5s1YNjhRzOfct-uP0ikkUjx-x99CrZrA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msgElement = document.getElementById('msg');
+      
+        form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    // Show immediate feedback to the user
+    msgElement.innerHTML = "Sending...";
+    
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            // Update the message once the request completes successfully
+            msgElement.innerHTML = "Message sent successfully";
+    
+            // Clear the message after 2 seconds
+            setTimeout(() => {
+                msgElement.innerHTML = "";
+            }, 5000);
+    
+            // Reset the form
+            form.reset();
+        })
+        .catch(error => {
+            // Handle errors and inform the user
+            console.error('Error!', error.message);
+            msgElement.innerHTML = "Failed to send message. Please try again.";
+    
+            // Clear the error message after 2 seconds
+            setTimeout(() => {
+                msgElement.innerHTML = "";
+            }, 2000);
+        });
+    });
+    
+      </script>
+    
+   </body>
+</html>
