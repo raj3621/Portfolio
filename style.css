@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     position: relative;
 }
 .header-text h1 span::before{
-    content: 'Web Developer';
+    content: 'Software Developer';
     animation: words 20s infinite;
 }
 .header-text h1 span::after{
@@ -91,19 +91,19 @@ nav ul li a:hover::after{
 }
 @keyframes words{
     0%,20%{
-        content: 'a Web Developer';
+        content: 'a Software Developer';
     }
     21%,40%{
         content: 'a Programmer';
     }
     41%,60%{
-        content: 'a Graphic Designer';
+        content: 'a Problem Solver';
     }
     61%,80%{
         content: 'a Learner';
     }
     81%,100%{
-        content: 'a Web Designer';
+        content: 'a Web Developer';
        
     }
 }
